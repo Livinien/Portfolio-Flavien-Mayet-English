@@ -252,7 +252,7 @@ const scene4 = new ScrollMagic.Scene({
 
 
 .setTween(tlCompetences1)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 
@@ -281,7 +281,7 @@ const scene5 = new ScrollMagic.Scene({
 
 
 .setTween(tlCompetences2)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 
@@ -309,7 +309,7 @@ const scene6 = new ScrollMagic.Scene({
 
 
 .setTween(tlCompetences3)
-.addIndicators()
+//.addIndicators()
 .addTo(controller)
 
 
