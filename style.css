@@ -390,6 +390,7 @@ header .navigation a:hover {
 .title-port {
     text-align: center;
     margin: 50px 0;
+    font-weight: bold;
     font-size: 40px;
 }
 
