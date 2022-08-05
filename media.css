@@ -802,6 +802,22 @@
 
 @media(max-width: 540px) {
 
+    .social-network {
+        margin: 50px;
+    }
+
+    .personnel-contact {
+        margin: 60px;
+    }
+
+    .personnel-contact h3  {
+        margin: 10px;
+    }
+
+    .backHome {
+        margin: 50px;
+    }
+
     .social-network h3 {
         font-size: 20px;
     }
