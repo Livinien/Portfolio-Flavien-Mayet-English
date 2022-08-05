@@ -20,7 +20,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url('Images/Photo_CV3.jpg') no-repeat;
+    background: url('/Front-End/Images/Photo_CV3.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -58,7 +58,7 @@ header .navigation a {
     color: #000;
     text-decoration: none;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
     letter-spacing: 1px;
     padding: 2px 15px;
     border-radius: 8px;
@@ -697,10 +697,10 @@ header .navigation a:hover {
     margin: 20px 0 0 0;
 }
 
-.private-contact .contact {
+.personnel-contact .contact {
     display: flex;
     justify-content: center;
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 small {

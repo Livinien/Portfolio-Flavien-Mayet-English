@@ -4,6 +4,7 @@
                 /* HEADER */
 
 
+
 @media(max-width: 1270px) {
 
     header .navigation a {
@@ -11,7 +12,7 @@
     }
 }
 
-@media(max-width: 1120px) {
+@media(max-width: 1130px) {
 
     header .navigation a {
         font-size: 12px;
@@ -768,18 +769,15 @@
         display: none
     }
 
-    .section-contact 
-    .personnel-contact 
-    .private-contact {
+    .backHome {
         display: flex;
         justify-content: center;
-        align-items: center;
     }
 
-    .private-contact .btn-black-responsive  {
+    .btn-black-responsive {
         display: flex;
         justify-content: center;
-        margin: 55px 0 0 0;
+        margin: 100px 0 0 0;
         background: #fff;
         border-radius: 50%;
         width: 60px;
@@ -794,7 +792,6 @@
             box-shadow: 0 0 0 15px rgba(242, 241, 241, 0.01);
         }
     }
-
 
     .arrow-up-responsive a {
         margin: 0px -1px 0px -2px;
