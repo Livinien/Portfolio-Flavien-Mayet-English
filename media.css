@@ -803,19 +803,19 @@
 @media(max-width: 540px) {
 
     .social-network {
-        margin: 50px;
+        margin: 50px 0 0 0;
     }
 
     .personnel-contact {
-        margin: 60px;
+        margin: 60px 0 0 0;
     }
 
     .personnel-contact h3  {
-        margin: 10px;
+        margin: 10px 0 0 0;
     }
 
     .backHome {
-        margin: -50px;
+        margin: -10px 0 0 0;
     }
 
     .social-network h3 {
