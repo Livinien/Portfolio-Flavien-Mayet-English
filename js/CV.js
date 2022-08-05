@@ -106,7 +106,7 @@ let typewriter = new Typewriter(txtAnim, {
 
     .staggerFrom(titrePortfolio, 5, {opacity: 0}, 0.90, '0.75')
 
-    .staggerFrom(navigation, 4, {opacity: 0}, 1, '0.80')
+    .staggerFrom(navigation, 4, {opacity: 0}, 0.50, '0.80')
 
     .staggerFrom(btn_black, 2, {opacity: 0}, 0.90, '2')
 
