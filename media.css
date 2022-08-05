@@ -124,6 +124,7 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        margin: -15px;
         font-size: 35px;
     }
 
@@ -844,7 +845,7 @@
     }
 
     .network {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .personnel-contact h3 {
