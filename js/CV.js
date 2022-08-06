@@ -60,7 +60,7 @@ let typewriter = new Typewriter(txtAnim, {
     .pauseFor(3000)
     .changeDelay(20)
 
-    .typeString('<strong>Développeur Web Junior</strong> ')
+    .typeString('<strong>Développeur Web</strong> ')
     .pauseFor(1000)
     .deleteChars(1)
 
