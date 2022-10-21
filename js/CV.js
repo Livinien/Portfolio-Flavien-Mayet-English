@@ -227,7 +227,8 @@ const scene3 = new ScrollMagic.Scene({
 // ANIMATION - COMPÉTENCES //
 
 const titleCompetences = document.querySelector('.title-exp');
-const itemCompetences1 = document.querySelectorAll('.item1');
+const itemCompetences1 = document.querySelectorAll('.skill-box');
+
 
 
 
@@ -288,7 +289,7 @@ const scene5 = new ScrollMagic.Scene({
 
 // VAGUE 3 //
 
-const itemCompetences3 = document.querySelectorAll('.item3');
+const itemCompetences3 = document.querySelectorAll('skill-box .item2');
 
 
 const tlCompetences3 = new TimelineMax();
@@ -371,7 +372,7 @@ tlExperiences2
 const scene8 = new ScrollMagic.Scene({
 
     triggerElement: experiences2,
-    triggerHook: 0.4,
+    triggerHook: 0.3,
     reverse: false
 })
 
@@ -444,6 +445,36 @@ const scene10 = new ScrollMagic.Scene({
 
 
 
+// VAGUE 5 //
+
+const experiences5 = document.querySelector('.row-row-5');
+
+const tlExperiences5 = new TimelineMax();
+
+
+tlExperiences5
+
+
+.from(experiences5, {y: -50, opacity: 0, duration: 1})
+
+
+const scene11 = new ScrollMagic.Scene({
+
+    triggerElement: experiences5,
+    triggerHook: 0.6,
+    reverse: false
+})
+
+
+.setTween(tlExperiences5)
+//.addIndicators()
+.addTo(controller)
+
+
+
+
+
+
 
 // ANIMATION - CONTACT //
 
@@ -462,7 +493,7 @@ tlContact
 .from(network, {y: -50, opacity: 0, duration: 0.50})
 
 
-const scene11 = new ScrollMagic.Scene({
+const scene12 = new ScrollMagic.Scene({
 
     triggerElement: titleContact,
     triggerHook: 0.6,
@@ -496,7 +527,7 @@ tlContactPersonnels
 .from(addresse, {y: -50, opacity: 0, duration: 0.50})
 
 
-const scene12 = new ScrollMagic.Scene({
+const scene13 = new ScrollMagic.Scene({
 
     triggerElement: titleContact,
     triggerHook: 0.2,
