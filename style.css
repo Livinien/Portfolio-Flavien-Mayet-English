@@ -287,18 +287,6 @@ header .navigation a:hover {
 }
 
 
-.content .facebook:hover a {
-    background: #3b5999;
-    color: #fff;
-}
-
-.content .instagram:hover a {
-    background: #d6249f;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-    color: #fff;
-}
-
-
 .content .linkedin:hover a {
     background: #0e76a8;
     color: #fff;
@@ -507,6 +495,7 @@ header .navigation a:hover {
     display: grid;
     grid-row: 3 / 3;
     grid-column: 3 / 2; 
+    
 }
 
 
