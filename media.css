@@ -17,6 +17,11 @@
     header .navigation a {
         font-size: 12px;
     }
+
+    .lien .btn-black {
+        margin-left: 15px;
+    }
+
 }
 
 
@@ -25,6 +30,14 @@
 
     .content .info .txt-animation {
         font-size: 25px;
+    }
+
+    .lien .btn-black {
+        margin-left: 30px;
+    }
+
+    .content .social {
+        margin-left: 90px;
     }
 }
 
@@ -38,6 +51,10 @@
 
     .wrapper ul li {
         margin-left: 18px;
+    }
+
+    .lien .btn-black {
+        margin: -15px 0 40px 50px;
     }
 }
 
@@ -53,12 +70,9 @@
         justify-content: center;
         font-weight: bold;
         padding: 15px;
-        margin: -15px 0 40px 0;
-        border: 3px solid #000;
-        color: #000;
+        margin: -15px 0 40px 50px;
         border-radius: 10px;
         font-size: 25px;
-        width: 100%;
         cursor: pointer;
         transition: 0.3s ease-in-out;
     }
@@ -67,7 +81,11 @@
         color: #fff;
         background-color: #000;
     }
-    
+
+    .content .social {
+        margin-left: 85px;
+    }
+
 }
 
 
@@ -147,12 +165,31 @@
         display: none;
     }
 
+    .lien .btn-black {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+        font-weight: bold;
+        border: 3px solid #000;
+        color: #000;
+        border-radius: 10px;
+        font-size: 25px;
+        width: 100%;
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+    }
 
+
+    .content .social {
+        margin-right: 60px;
+    }
 
     .social .logo a {
         text-decoration: none;
     }
     
+
     .content .linkedin:hover a {
         background: none;
         text-decoration: none;
@@ -181,7 +218,6 @@
         color: #000;
     }
 
-
   
     .box {
         display: block;
@@ -198,7 +234,6 @@
     .lignes {
         background: #fff;
     }
-
 
 
     .content {
@@ -314,6 +349,10 @@
         margin: 10px 0 40px 0;
         font-size: 20px;
     }
+
+    .content .social {
+        margin-left: 80px;
+    }
 }
 
 
@@ -332,11 +371,12 @@
     }
 
     .content .social a {
-        width: 20px;
+        width: 40px;
+        margin-left: 1px;
     }
 
     .lien .btn-black {
-        margin: 10px 0 40px 0;
+        margin: 10px 0 30px 0;
         font-size: 15px;
     }
 }
@@ -387,7 +427,8 @@
 
 
     .content .social a {
-        width: 20px;
+        width: 30px;
+        margin-left: 1px;
     }
 
     .content .social .logo .fab {
@@ -405,11 +446,6 @@
     .content .info .txt-animation {
         font-size: 13px;
         height: 11px;
-    }
-
-    .lien .btn-black {
-        margin: 20px 0 40px 0;
-        
     }
 }
 
