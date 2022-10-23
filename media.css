@@ -242,6 +242,7 @@
         align-items: center;
         border-radius: 50%;
         height: 250px;
+        width: 235px;
         box-shadow: 0 0 0 0 #333;
         animation: pulse 1.3s infinite;
     }
@@ -293,7 +294,8 @@
 @media(max-width: 740px) {
 
     .photo-profil img {
-        height: 200px;
+        height: 210px;
+        width: 200px;
     }
    
     .content {
@@ -392,7 +394,8 @@
     }
 
     .photo-profil img {
-        height: 180px;
+        height: 190px;
+        width: 180px;
     }
    
     .content .info h2 {
