@@ -20,7 +20,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    background: url('Images/Photo_CV4.jpg') no-repeat;
+    background: url('Images/Photo_Flavien\ .jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -702,10 +702,13 @@ small {
 
                     /* FOOTER */
 
-
 footer {
     text-align: center;
     padding: 40px;
+}
+
+.contact a {
+    text-decoration: underline;
 }
 
 
