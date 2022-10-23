@@ -214,7 +214,7 @@
         display: block;
         height: 50px;
         width: 50px;
-        border-radius: 2px;
+        border-radius: 5px;
         background: #000;
         position: absolute;
         bottom: 80px;
@@ -254,11 +254,9 @@
         }
     }
 
-
     .content .photo-profil  {
         height: 300px;
     }
-
 
     .content .info h2 {
         display: flex;
@@ -269,13 +267,11 @@
         height: 80px;
     }
 
-
     .content .info .txt-animation {
         color: #000;
         font-size: 22px;
         height: 20px;
     }
-
 
     .content .social .logo .fab {
         display: flex;
@@ -290,8 +286,6 @@
         border-radius: 50%;
     }
 }
-
-
 
 
 
