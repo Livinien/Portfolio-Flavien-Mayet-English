@@ -72,9 +72,9 @@ let typewriter = new Typewriter(txtAnim, {
     .pauseFor(1000)
     .deleteChars(12)
 
-    .typeString('<span style = "color: #EA39ff;"> SEO</span> ')
+    .typeString('<span style = "color: #EA39ff;"> Symfony</span> ')
     .pauseFor(1000)
-    .deleteChars(6)
+    .deleteChars(8)
 
     .typeString('<span style = "color: #00a6ff;"> MySQL</span> ')
     .pauseFor(1000)
