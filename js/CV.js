@@ -37,8 +37,6 @@ if(window.matchMedia('(max-width: 980px)')) {
         })
 
     })
-
-
 }
 
  
@@ -60,7 +58,7 @@ let typewriter = new Typewriter(txtAnim, {
     .pauseFor(3000)
     .changeDelay(20)
 
-    .typeString('<strong>Développeur Web</strong> ')
+    .typeString('<strong>Web Developer</strong> ')
     .pauseFor(1000)
     .deleteChars(1)
 
